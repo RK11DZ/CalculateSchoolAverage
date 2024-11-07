@@ -30,5 +30,5 @@
 
 ## الترخيص
 
-تم ترخيص هذا المشروع تحت [رخصة MIT](LICENSE).
+تم ترخيص هذا المشروع تحت [رخصة MIT](https://github.com/RafikPro/CalculateSchoolAverage?tab=License-1-ov-file).
 
