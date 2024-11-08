@@ -61,6 +61,7 @@ function getGradeEvaluation(average) {
     else if (average >= 15) return "جيد جدًا";
     else if (average >= 12) return "جيد";
     else if (average >= 10) return "مقبول";
+    else if (average >= 8) return "قابل للتحسن";
     else return "ضعيف";
 }
 
