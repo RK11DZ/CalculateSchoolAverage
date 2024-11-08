@@ -113,6 +113,14 @@ function addSubject() {
     const exam1Input = document.getElementById('exam1');
     const finalExamInput = document.getElementById('finalExam');
 
+    if (!subjectName) {
+        alert('يرجى اختيار المادة.');
+        document.getElementById('subject').style.borderColor = 'red'; // تسليط الضوء على حقل المادة
+        return;
+    } else {
+        document.getElementById('subject').style.borderColor = ''; // إزالة الإضاءة عند اختيار مادة صحيحة
+    }
+    
     const assignment1 = parseFloat(assignment1Input.value) || 0;
     const exam1 = parseFloat(exam1Input.value) || 0;
     const finalExam = parseFloat(finalExamInput.value) || 0;
