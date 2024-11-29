@@ -208,3 +208,8 @@ function calculateAnnualAverage() {
     const annualAverage = count ? (totalAverage / count).toFixed(2) : '0.00';
     document.getElementById('annual-average').textContent = annualAverage;
 }
+
+    // حساب المعدل السنوي
+    const annualAverage = count ? (totalAverage / count).toFixed(2) : '0.00';
+    document.getElementById('annual-average').textContent = annualAverage;
+}
